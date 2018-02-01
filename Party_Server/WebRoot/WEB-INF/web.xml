@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+
+
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.hushi.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AppLoginServlet</servlet-name>
+		<servlet-class>com.hushi.app.servlet.AppLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AppLoginServlet</servlet-name>
+		<url-pattern>/servlet/AppLoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpDwonServlet</servlet-name>
+		<servlet-class>com.hushi.app.servlet.UpDwonServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpDwonServlet</servlet-name>
+		<url-pattern>/servlet/UpDwonServlet</url-pattern>
+	</servlet-mapping>
+	
+   
+   <servlet>
+		<servlet-name>AppRegisterServlet</servlet-name>
+		<servlet-class>com.hushi.app.servlet.AppRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AppRegisterServlet</servlet-name>
+		<url-pattern>/servlet/AppRegisterServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ZhuHuServlet</servlet-name>
+		<servlet-class>com.hushi.servlet.ZhuHuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZhuHuServlet</servlet-name>
+		<url-pattern>/zhuhu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FangWuServlet</servlet-name>
+		<servlet-class>com.hushi.servlet.FangWuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FangWuServlet</servlet-name>
+		<url-pattern>/fangwu</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+</web-app>
