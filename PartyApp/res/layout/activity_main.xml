@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/headbg"
+        android:orientation="horizontal" >
+
+      
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Homepage"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+      
+    </RelativeLayout>
+         
+            
+       <LinearLayout
+        android:id="@+id/main_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit information" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/go" />
+    </LinearLayout>
+       <LinearLayout
+        android:id="@+id/main_create_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Launch Party" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/go" />
+    </LinearLayout>
+    
+       <ListView 
+          android:id="@+id/group_lv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/list_item_selector"
+          android:divider="@color/gray"
+          android:dividerHeight="1dp"
+          />
+       
+       
+       
+       
+</LinearLayout>

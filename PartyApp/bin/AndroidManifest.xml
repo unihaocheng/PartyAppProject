@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wy"
+    android:versionCode="16"
+    android:versionName="2.5" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+	<uses-permission android:name="android.permission.INTERNET" />
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 	
+    <application
+        android:name="com.wy.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wy.ui.ActivityLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.wy.ui.MainActivity"></activity>  
+        <activity android:name="com.wy.ui.ActivityEdit"></activity>  
+        <activity android:name="com.wy.ui.ActivityRegister"></activity>  
+        <activity android:name="com.wy.ui.ActivityBX"></activity>  
+        <activity android:name="com.wy.ui.ActivityJY"></activity>  
+        <activity android:name="com.wy.ui.ActivityNF"></activity>  
+        <activity android:name="com.wy.ui.ActivityCL"></activity>  
+        <activity android:name="com.wy.ui.ActivityUpload"></activity>  
+        <activity android:name="com.wy.ui.ActivityDownload"></activity>  
+        <activity android:name="com.wy.ui.KSActivity"></activity>  
+        <activity android:name="com.wy.ui.ActivityDeatil"></activity>  
+        
+        
+        
+        
+        
+        
+       
+        
+    
+    </application>
+
+</manifest>

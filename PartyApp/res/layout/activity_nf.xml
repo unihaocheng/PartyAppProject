@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/headbg"
+        android:orientation="horizontal" >
+
+      
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Check Comments"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+      
+    </RelativeLayout>
+   
+    
+      <ListView 
+          android:id="@+id/bx_lv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/list_item_selector"
+          />
+
+</LinearLayout>

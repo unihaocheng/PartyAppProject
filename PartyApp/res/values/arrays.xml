@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Keep them in order as the titles are in -->
+   
+    <string-array name="patient_deal">
+        <item>查看病例</item>
+        <item>查看每日备注</item>
+        <item>查看留言</item>
+        <item>查看医嘱</item>
+        <item>标记为出院</item>
+    </string-array>
+    
+    <string-array name="hushi_deal">
+        <item>查看留言</item>
+        <item>查看评价</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/headbg"
+        android:orientation="horizontal" >
+
+      
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Launch Party"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+      
+    </RelativeLayout>
+    <EditText 
+        android:id="@+id/group_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Please input Party topic"
+        />
+     <EditText 
+        android:id="@+id/group_address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Please input Party address"
+        />
+      <EditText 
+        android:id="@+id/group_start_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Please input Party start time"
+        />
+       <EditText 
+        android:id="@+id/group_end_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Please input Party end time"
+        />
+     <EditText 
+        android:id="@+id/group_ins_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Please input Party introduce "
+        android:gravity="top"
+        />
+     <Button
+            android:id="@+id/bx_bt"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_btn_text"
+            android:textColor="@color/text_white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="Submit" />
+
+</LinearLayout>
